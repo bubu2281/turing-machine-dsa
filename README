@@ -1,0 +1,11 @@
+    In cadrul aceste teme m-am folost de 4 structuri de date, respectiv TBanda, TBanda2, TStiva si TCoada.
+TBanda este de fapt o structura pentru o lista dublu inlantuita, iar TBanda2 reprezinta o structura care contine
+atat lista (banda), cat si degetul (pointer catre o celula din cadrul benzii)
+
+    Printre functiile folosite in cadrul acestei teme sunt cele de care ne-am folosit atat la curs cat si la
+laborator. De asemenea, sunt functiile ce au fost definite in enuntul temei, dar si doua functii intermediare
+ConvertOP si AddOpQ
+    Prima, ConvertOP ia stringurile operatiilor atunci cand le citim si le converteste intr-un cod pentru a putea
+lucra mai usor cu ele. Codul fiecarei operatii este gasit la inceputul fisierului functii.h
+    Cea de-a doua AddOpQ este o combinatie intre toate functiile de mai jos. Rolul principal al acesteia este de
+a adauga in coada operatiilor, operatiile de tip update si de a rula operatiile ce nu necesita execute.
